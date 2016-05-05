@@ -1,0 +1,27 @@
+/* My awesome style */
+
+/* Global, Sitewide */
+body { background: url(../img/usa.jpeg);}
+
+
+/* Header*/
+header img {width: 100px;}
+
+/* Main Navigation */
+
+nav li {list-style: none;
+display: inline-block;}
+
+nav a:link,
+nav a:visited
+{background: red;
+text-decoration: none;
+padding: 1em;
+transition: all .5s;}
+
+nav a:hover{background: yellow;
+}
+
+nav a:active{background: gold;
+margin-left: .5em;
+}
