@@ -1,7 +1,7 @@
 /* My awesome style */
 
 /* Global, Sitewide */
-body { background: url(../img/usa.jpeg);}
+body { background: url(../img/woodgrain2.jpg);}
 
 
 /* Header*/
@@ -14,14 +14,21 @@ display: inline-block;}
 
 nav a:link,
 nav a:visited
-{background: red;
+{background: gold;
 text-decoration: none;
 padding: 1em;
 transition: all .5s;}
 
-nav a:hover{background: yellow;
+nav a:hover{background: maroon;
 }
 
 nav a:active{background: gold;
 margin-left: .5em;
 }
+
+/* Quote */
+
+blockquote {text-align: center;
+font-size: 4em;
+color:gold;
+text-shadow: 5px 5px 0 black;}
