@@ -1,34 +1,37 @@
 
 
 /* Color Palette */
-.color-1 {background: Red;}
+lor-1 {background: black;}
 
 
-.color-2 {background: white;}
+.color-2 {background: grey;}
 
-.color-3 {background: blue;} 
+.color-3 {background: white;} 
 
-.color-4 {background: black;}
+.color-4 {background: gold;}
 
 /* Texture and Patterns */
 
-.pattern-1 { background: url("http://previews.123rf.com/images/astrozombie/astrozombie1305/astrozombie130500030/19828972-Grunge-american-flag-with-wooden-texture-Stock-Photo-wood.jpg") no-repeat ; 
+.pattern-1 { background: url(../img/woodgrain.jpeg) no-repeat ; 
 background-size: cover; 
 }
 
-.pattern-2{background: url(../img/american.jpg) no-repeat;}
+.pattern-2{background: url(../img/woodgrain2.jpg) no-repeat; background-size: cover;}
+
+.pattern-3{background: url(../img/black-pattern.jpeg) no-repeat; background-size: cover;}
+
 
 /*Imagery*/
 
-.imagery-1 img {box-shadow: 5px 5px 0 red,
-    5px 5px 0 white,
-    5px 5px 0 blue ;}
+.imagery-1 img {width: 300px; height: 150px;}
+.imagery-3 img {width: 200px;}
 
 /*Icon*/
 
-.icon-1 { border: none; }
+.icon-1 img {width: 100px;}
 
-.icon-2 { background: url(../img/iconmonstr-home-1-240.png); }
+.icon-2 img {width: 100px; }
+.icon-3 img {width: 100px; }
 
     
 /* Navigation */
@@ -51,7 +54,7 @@ nav a:visited { color: aqua; }
 
 nav a:focus {border: 50px red; } 
 
-nav a:hover { background: brown;
+nav a:hover { background: grey;
     color: white;
 margin-top: 20px; }
 
