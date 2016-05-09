@@ -1,7 +1,10 @@
 /* My awesome style */
 
+
 /* Global, Sitewide */
 body { background: url(../img/woodgrain2.jpg);}
+
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 
 
 /* Header*/
@@ -29,6 +32,7 @@ margin-left: .5em;
 /* Quote */
 
 blockquote {text-align: center;
+font-family: 'IM Fell Double Pica', serif;
 font-size: 4em;
 color:gold;
 text-shadow: 5px 5px 0 black;}
