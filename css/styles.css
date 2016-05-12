@@ -6,9 +6,18 @@ body { background: url(../img/woodgrain2.jpg);}
 
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 
+h3 {Color: white;}
+p {Color: white;
+font-size: 20px;}
+
+li {color: white;}
+
+h4 {color: white;}
+
+dt {color: white;}
 
 /* Header*/
-header img {width: 100px;}
+header img {width: 200px;}
 
 /* Main Navigation */
 
@@ -33,6 +42,6 @@ margin-left: .5em;
 
 blockquote {text-align: center;
 font-family: 'IM Fell Double Pica', serif;
-font-size: 4em;
+font-size: 2em;
 color:gold;
-text-shadow: 5px 5px 0 black;}
+text-shadow: 3px 3px 0 black;}
