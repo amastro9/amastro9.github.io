@@ -6,6 +6,7 @@ body { background: url(../img/blackb.jpg);}
 
 @import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
 
+
 h3 {Color: white;}
 p {Color: white;
 font-size: 20px;}
@@ -19,6 +20,7 @@ dt {color: white;}
 /* Header*/
 header img {width: 200px;}
 
+
 /* Main Navigation */
 
 nav li {list-style: none;
@@ -31,7 +33,7 @@ text-decoration: none;
 padding: 1em;
 transition: all .5s;}
 
-nav a:hover{background: maroon;
+nav a:hover{background: grey;
 }
 
 nav a:active{background: gold;
